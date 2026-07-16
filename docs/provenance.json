@@ -1,0 +1,142 @@
+[
+  {
+    "system": "ant",
+    "source_snapshot_identifier": "apache-ant-r584500",
+    "source_root_in_archive": "ant/apache-ant-r584500",
+    "reference_decomposition_file": "metadata/reference-decompositions/ant_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/ant_deps.json.xz",
+    "dependency_matrix_name": "ant-r584500-source-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "archstudio4",
+    "source_snapshot_identifier": "archstudio4",
+    "source_root_in_archive": "archstudio4",
+    "reference_decomposition_file": "metadata/reference-decompositions/archstudio4_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/archstudio4_deps.json.xz",
+    "dependency_matrix_name": "archstudio4-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "argouml",
+    "source_snapshot_identifier": "argouml-r13713",
+    "source_root_in_archive": "argouml/argouml-r13713",
+    "reference_decomposition_file": "metadata/reference-decompositions/argouml_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/argouml_deps.json.xz",
+    "dependency_matrix_name": "argouml-r13713-source-generated-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "bash-4.2",
+    "source_snapshot_identifier": "bash-4.2",
+    "source_root_in_archive": "bash-4.2",
+    "reference_decomposition_file": "metadata/reference-decompositions/bash-4.2_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/bash-4.2_deps.json.xz",
+    "dependency_matrix_name": "bash-4.2-generated-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "chromium",
+    "source_snapshot_identifier": "chromium-browser-23.0.1271.97-src",
+    "source_root_in_archive": "chromium/src",
+    "reference_decomposition_file": "metadata/reference-decompositions/chromium_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/chromium_deps.json.xz",
+    "dependency_matrix_name": "chromium-browser-23.0.1271.97-src-depends-full-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "hadoop",
+    "source_snapshot_identifier": "hadoop-0.19.0-built",
+    "source_root_in_archive": "hadoop",
+    "reference_decomposition_file": "metadata/reference-decompositions/hadoop_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/hadoop_deps.json.xz",
+    "dependency_matrix_name": "hadoop-0.19.0-built-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "hdc",
+    "source_snapshot_identifier": "hdc-distributed_camera",
+    "source_root_in_archive": "hdc",
+    "reference_decomposition_file": "metadata/reference-decompositions/hdc_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/hdc_deps.json.xz",
+    "dependency_matrix_name": "hdc-distributed_camera-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "hdf",
+    "source_snapshot_identifier": "hdf-core",
+    "source_root_in_archive": "hdf",
+    "reference_decomposition_file": "metadata/reference-decompositions/hdf_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/hdf_deps.json.xz",
+    "dependency_matrix_name": "hdf-core-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "jabref",
+    "source_snapshot_identifier": "jabref-v3.7",
+    "source_root_in_archive": "jabref",
+    "reference_decomposition_file": "metadata/reference-decompositions/jabref_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/jabref_deps.json.xz",
+    "dependency_matrix_name": "jabref-v3.7-generated-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "libxml",
+    "source_snapshot_identifier": "libxml2-2.4.22",
+    "source_root_in_archive": "libxml",
+    "reference_decomposition_file": "metadata/reference-decompositions/libxml_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/libxml_deps.json.xz",
+    "dependency_matrix_name": "libxml2-2.4.22-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "lucene",
+    "source_snapshot_identifier": "lucene-r1075001",
+    "source_root_in_archive": "lucene/lucene-r1075001",
+    "reference_decomposition_file": "metadata/reference-decompositions/lucene_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/lucene_deps.json.xz",
+    "dependency_matrix_name": "lucene-r1075001-source-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "oodt",
+    "source_snapshot_identifier": "oodt-0.2-tag",
+    "source_root_in_archive": "oodt",
+    "reference_decomposition_file": "metadata/reference-decompositions/oodt_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/oodt_deps.json.xz",
+    "dependency_matrix_name": "oodt-0.2-tag-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "sweethome3d",
+    "source_snapshot_identifier": "sweethome3d-r002382",
+    "source_root_in_archive": "sweethome3d/sweethome3d-r002382",
+    "reference_decomposition_file": "metadata/reference-decompositions/sweethome3d_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/sweethome3d_deps.json.xz",
+    "dependency_matrix_name": "sweethome3d-r002382-source-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  },
+  {
+    "system": "teammates",
+    "source_snapshot_identifier": "teammates-5.110",
+    "source_root_in_archive": "teammates",
+    "reference_decomposition_file": "metadata/reference-decompositions/teammates_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/teammates_deps.json.xz",
+    "dependency_matrix_name": "teammates-5.110-depends-file-sdsm",
+    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
+    "reference_decomposition_provenance_status": "TODO: verify label source"
+  }
+]

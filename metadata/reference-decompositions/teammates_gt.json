@@ -1,0 +1,3208 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.client.remoteapi.RemoteApiClient"
+                }
+            ],
+            "@type": "group",
+            "name": "client.remoteAPI"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.scalabilitytests.InstructorFeedbackResultsPageDataGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.AdminEmailListGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.OfflineBackup"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataBundleRegenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.StatisticsPerInstitute"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.StudentDataGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.ImportData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.GenerateFeedbackReport"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataMigrationForSanitizedDataInAdminEmailAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataMigrationForResponseRate"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.scalabilitytests.InstructorCourseEnrollPageDataGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataMigrationForSearchableInstructors"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.util.Stopwatch"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataMigrationForSanitizedDataInStudentProfileAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.scalabilitytests.InstructorFeedbackResultsPageScalabilityTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.GenerateLargeScaledData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.TeamEvalResultCalculations"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.scalabilitytests.InstructorCourseEnrollPageScalabilityTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.PerformanceProfiler"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataRepairForCorruptedResponses"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.ParallelProfiler"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.util.LoopHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.UploadBackupData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataMigrationForSanitizedDataInCourseAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataMigrationForSanitizedDataInStudentAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.ModifyInstituteOfStudentsInCourse"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.PerformanceTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataMigrationForSearchableStudents"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.client.scripts.DataMigrationForFeedbackResponseCommentSearchDocumentDateFormat"
+                }
+            ],
+            "@type": "group",
+            "name": "client.scripts"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.InstructorAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.FeedbackResponseCommentSearchResultBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackMcqQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.EntityAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.FeedbackSessionStats"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.FeedbackSessionResponseStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackRankResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.InstructorPrivileges"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.FeedbackQuestionAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackQuestionType"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackContributionQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.FeedbackResponseCommentAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.SessionAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.UserRole"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.FeedbackSessionDetailsBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackConstantSumResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackTextResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.FeedbackSessionAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.StudentAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.CourseRoster"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.FeedbackParticipantType"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.StudentProfileAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.CourseStats"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.CourseSummaryBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.UserType"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.AdminEmailAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.TeamEvalResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.FeedbackSessionResultsBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackMsqResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.FeedbackSessionQuestionsBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.StudentEnrollDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.FeedbackSessionType"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.FeedbackResponseAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackRankRecipientsResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.AccountAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.TeamDetailsBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.attributes.CourseAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.StudentAttributesFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackMcqResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackRankRecipientsQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackRankQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.SectionDetailsBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackRubricQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.StudentSearchResultBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.DataBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.InstructorSearchResultBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.CourseDetailsBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.CourseEnrollmentResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.SearchResultBundle"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackTextQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackMsqQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackNumericalScaleQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackNumericalScaleResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackRankOptionsResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackRankOptionsQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackRubricResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.StudentResultSummary"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackContributionResponseDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.questions.FeedbackConstantSumQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.datatransfer.StudentUpdateStatus"
+                }
+            ],
+            "@type": "group",
+            "name": "common.dataTransfer"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.EntityAlreadyExistsException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.TeammatesException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.PageNotFoundException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.EnrollException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.EmailSendingException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.FeedbackSessionNotVisibleException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.UnauthorizedAccessException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.InvalidParametersException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.EntityDoesNotExistException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.InvalidOriginException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.NullPostParameterException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.JoinCourseException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.ExceedingRangeException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.exception.EntityNotFoundException"
+                }
+            ],
+            "@type": "group",
+            "name": "common.exception"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.LogMessageGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.FrontEndLibrary"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.Version"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.AdminLogQuery"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.Const"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.FieldValidator"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.Templates"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.EmailLogEntry"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.retry.RetryManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.SanitizationHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.ActivityLogEntry"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.HttpRequestHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.StatusMessageColor"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.JsonUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.NationalityHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.EmailType"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.GoogleCloudStorageHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.Activity"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.AppUrl"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.StatusMessage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.StringHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.retry.Retryable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.ThreadHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.retry.MaximumRetriesExceededException"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.retry.RetryableTaskThrows"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.Assumption"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.FileHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.retry.RetryableTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.TimeHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.EmailWrapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.TaskWrapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.retry.RetryableTaskReturnsThrows"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.CryptoHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.GaeVersionApi"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.retry.RetryableTaskReturns"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.Config"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.Url"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.Logger"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.common.util.GaeLogApi"
+                }
+            ],
+            "@type": "group",
+            "name": "common.util"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.api.TaskQueuer"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.api.EmailSender"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.api.GateKeeper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.api.Logic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.api.EmailGenerator"
+                }
+            ],
+            "@type": "group",
+            "name": "logic.api"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.backdoor.BackDoorServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.backdoor.BackDoorLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.backdoor.BackDoorOperation"
+                }
+            ],
+            "@type": "group",
+            "name": "logic.backdoor"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.MailgunService"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.MailjetService"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.AccountsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.FeedbackResponseCommentsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.TaskQueuesLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.FeedbackQuestionsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.InstructorsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.StudentsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.JavamailService"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.FeedbackSessionsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.FeedbackResponsesLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.AdminEmailsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.ProfilesLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.EmailSenderService"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.CoursesLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.logic.core.SendgridService"
+                }
+            ],
+            "@type": "group",
+            "name": "logic.core"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.InstructorsDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.FeedbackSessionsDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.CoursesDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.StudentsDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.OfyHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.EntitiesDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.AccountsDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.FeedbackQuestionsDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.FeedbackResponseCommentsDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.FeedbackResponsesDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.ProfilesDb"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.api.AdminEmailsDb"
+                }
+            ],
+            "@type": "group",
+            "name": "storage.api"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.FeedbackResponse"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.CourseStudent"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.FeedbackQuestion"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.FeedbackResponseComment"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.AdminEmail"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.Account"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.Course"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.FeedbackSession"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.StudentProfile"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.BaseEntity"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.entity.Instructor"
+                }
+            ],
+            "@type": "group",
+            "name": "storage.entity"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.search.SearchManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.search.InstructorSearchQuery"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.search.FeedbackResponseCommentSearchQuery"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.search.StudentSearchDocument"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.search.SearchDocument"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.search.InstructorSearchDocument"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.search.SearchQuery"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.search.FeedbackResponseCommentSearchDocument"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.storage.search.StudentSearchQuery"
+                }
+            ],
+            "@type": "group",
+            "name": "storage.search"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminInstructorAccountAddActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseStudentDetailsEditSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.search.FeedbackResponseCommentSearchTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorEditInstructorFeedbackSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.FeedbackConstSumOptionQuestionUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.SessionAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.StudentProfilePicturePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackQuestionCopyPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.GaeSimulation"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.AdminAccountDetailsPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.AdminActivityLogPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.InstructorFeedbackResultsResponseRowTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorCourseDetailsPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.UrlTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorStudentListPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.FieldValidatorExtension"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.BaseTestCase"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorStudentRecordsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.FeedbackRubricQuestionUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorFeedbackEditPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentProfileEditSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorSearchPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackSubmissionEditSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.BaseAutomatedActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.ProfilesLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.FeedbackSubmitPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.NotFoundPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.FeedbackResponseDetailsTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentFeedbackSubmissionEditSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorFeedbackEditPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.FeedbackConstSumRecipientQuestionUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.FeedbackSessionPublishedRemindersActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseEditPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.StudentAttributesFactoryTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.InstructorsLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.testdriver.TestPropertiesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.BrowserPool"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorStudentListPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorCoursesPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminEmailComposeSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorFeedbackQuestionCopyPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.testdriver.TestNgTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminAccountDeletePageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.StudentProfilePageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseDetailsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.BaseUiTestCase"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCourseEnrollPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackUnpublishActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorHomePageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.TestProperties"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.StudentsLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.FeedbackNumScaleQuestionUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorCourseEditPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.FeedbackSessionUnpublishedEmailWorkerActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorSubmissionAdjustmentUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCourseJoinConfirmationPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentHomePageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.AppPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorCourseStudentDetailsPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorCourseEditPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseInstructorAddActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AdminAccountManagementPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.StudentCourseDetailsPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorFeedbackResultsPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.StringHelperTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AdminSessionsPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.InstructorsDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCoursesDetailsPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.GodModeTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.FeedbackResponseAdjustmentWorkerActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseDeleteActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackResponseCommentDeleteActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.search.InstructorSearchTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminEmailLogPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.AdminSessionsPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorEditStudentFeedbackPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.ProfilesDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.AdminAccountManagementPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.BackDoor"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseJoinActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.StudentFeedbackResultsPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.StudentFeedbackResultsPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseEnrollPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackDeleteActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AdminSearchPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackPreviewAsInstructorActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.FieldValidatorTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.StudentsDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.FeedbackQuestionAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminExceptionTestActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AdminHomePageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.StudentProfilePageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AdminAccountDetailsPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.AdminEmailPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseInstructorDeleteActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.BaseAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.FeedbackMsqQuestionUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentProfileCreateFormUrlActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCoursesPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackResultsDownloadActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackPreviewAsStudentActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.AdminHomePageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorCourseStudentDetailsPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorFeedbackSubmitPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackSessionsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.StudentHomePageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.HomePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.GateKeeperTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.GoogleLoginPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.BaseTestCaseWithMinimalGaeEnvironment"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentFeedbackResultsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseStudentDetailsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackPublishActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.TimezoneSyncerTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackEditCopyActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorCoursesPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.EmailGeneratorTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.AdminLogQueryTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.StudentAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.FeedbackResponseCommentsDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.BaseTestCaseWithBackDoorApiAccess"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackQuestionCopyActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.MashupPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.StudentHomePageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorHomePageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AdminActivityLogPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.CourseAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.FeedbackContributionQuestionUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorFeedbackEditPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.InstructorAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.Browser"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.FeedbackResponseAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.StringHelperExtension"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AdminEmailPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.HtmlHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackResponseCommentAddActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminAccountManagementPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackResponseCommentEditActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorEditInstructorFeedbackPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.EmailChecker"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorStudentListPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.StudentCourseJoinEmailWorkerActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.FeedbackSessionAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseStudentDetailsEditPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.FeedbackMcqQuestionUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.FeedbackResponsesLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.BaseLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.TimeHelperTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.EmailAccount"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackEditSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.CoursesDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentCourseJoinActionLegacyTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorCourseDetailsPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorCourseStudentDetailsEditPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminSearchPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.search.BaseSearchTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackRemindParticularStudentsActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.StudentHelpPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentFeedbackSubmissionEditPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.AssertHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.FeedbackResponseCommentsLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.MockTaskQueuer"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.LoginPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseEditSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorStudentListAjaxPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.AccountsLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.FeedbackSessionStatsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseInstructorEditSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.AdminSearchPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackQuestionEditActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.testdriver.AssertHelperTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.FeedbackQuestionsLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.AccountAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.StudentProfileAttributesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.FeedbackSessionClosedRemindersActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AutomatedSessionRemindersTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.EmailLogEntryTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorFeedbackSessionsPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackQuestionVisibilityMessageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackResultsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorHelpPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.VersionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorCourseEnrollPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackSubmissionEditPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.StudentCourseDetailsPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.StudentProfilePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorEditStudentFeedbackPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorStudentListAjaxPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCoursesPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.StudentFeedbackSubmitPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminEmailComposePageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackEditPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentProfilePageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentCourseJoinAuthenticatedActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentProfilePictureActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.CoursesLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.FeedbackSessionsDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.SystemErrorEmailReportTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.BaseTestCaseWithDatastoreAccess"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackAddActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.FeedbackRankQuestionUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.MockEmailSender"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCourseDetailsPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.StudentCourseDetailsPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.EntitiesDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.LogMessageGeneratorTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.FeedbackSessionClosingRemindersActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorCourseEnrollResultPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.BaseActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.UrlExtension"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.StudentCourseJoinConfirmationPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.ActionResultTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorFeedbackResultsPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorEditStudentFeedbackPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.InstructorCourseJoinEmailWorkerActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.TableSortTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorFeedbackEditCopyUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorCourseEnrollPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AllJsTests"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorCourseStudentDetailsEditPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.PriorityInterceptor"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.BackDoorLogicTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.FeedbackSubmissionEditPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.testdriver.EmailCheckerTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCourseEditPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentCourseDetailsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.AdminEmailLogPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.EntityNotFoundPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseArchiveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.Priority"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.TeamEvalResultTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminAccountDetailsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.FeedbackResponsesDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.FeedbackSessionRemindEmailWorkerActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackRemindActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.BuildPropertiesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.SanitizationHelperTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.testdriver.HtmlHelperTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseStudentDeleteAllActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.FeedbackQuestionsDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.FeedbackSessionPublishedEmailWorkerActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorHomePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.AdminHomePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCourseStudentDetailsEditPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorStudentRecordsPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseEnrollSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.search.StudentSearchTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCourseEnrollResultPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorStudentRecordsPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseAddActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.storage.AccountsDbTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.CourseRosterTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.StudentCourseJoinConfirmationPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.logic.EmailSenderTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminHomePageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AdminEmailLogPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.AdminActivityLogPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.datatransfer.InstructorPrivilegesTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentCourseJoinActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.BaseTestCaseWithObjectifyAccess"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorCourseJoinConfirmationPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.FeedbackSessionNotVisiblePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.GmailServiceMaker"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCopyFsToModal"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.FeedbackQuestionUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackEditCopyPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorStudentListPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.FileHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.BaseComponentTestCase"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AllAccessControlUiTests"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorStudentRecordsAjaxPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackRemindParticularStudentsPageActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.GenericAppPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackCopyActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.QUnitPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.StudentProfilePictureEditActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.StudentFeedbackResultsPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.NotAuthorizedPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.StudentHomePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.driver.TimeHelperExtension"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseStudentDeleteActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.DevServerLoginPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseStudentListDownloadActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.InstructorFeedbackSessionsPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseJoinAuthenticatedActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorSearchPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorEditStudentFeedbackSaveActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorCourseStudentDetailsViewPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.pageobjects.InstructorFeedbackSessionsPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorCourseRemindActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.pagedata.InstructorCourseJoinConfirmationPageDataTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.browsertests.AppPageUiTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.util.ActivityLogEntryTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.action.InstructorFeedbackQuestionAddActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.FeedbackSessionOpeningRemindersActionTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.testdriver.BackDoorTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.test.cases.automated.FeedbackSessionRemindParticularUsersEmailWorkerActionTest"
+                }
+            ],
+            "@type": "group",
+            "name": "testDriver"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.AutomatedAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.FeedbackSessionRemindParticularUsersEmailWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.FeedbackSessionUnpublishedEmailWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.FeedbackSessionClosingRemindersAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.AdminSendEmailWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.FeedbackSessionRemindEmailWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.AutomatedServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.FeedbackResponseAdjustmentWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.AdminPrepareEmailAddressModeWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.FeedbackSessionPublishedEmailWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.InstructorCourseJoinEmailWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.FeedbackSessionClosedRemindersAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.CompileLogsAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.AutomatedActionFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.FeedbackSessionOpeningRemindersAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.StudentCourseJoinEmailWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.SendEmailWorkerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.FeedbackSessionPublishedRemindersAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.automated.AdminPrepareEmailGroupModeWorkerAction"
+                }
+            ],
+            "@type": "group",
+            "name": "ui.automated"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseEditPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseEnrollPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.ActionResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailCreateImageUploadUrlAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseEnrollSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminSearchPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.ShowPageResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailTrashAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.ActionFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackResultsDownloadAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackPreviewAsStudentAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentHomePageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackResultsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentCourseJoinAuthenticatedAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailSentPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackPreviewAsInstructorAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackQuestionVisibilityMessageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseStudentDeleteAllAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackEditPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailGroupReceiverListUploadAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentProfilePageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminSessionsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailTrashPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorHomePageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackUnpublishAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorEditInstructorFeedbackPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailDraftPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentProfilePictureEditAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseEditSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.ControllerServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorStudentListPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorSearchPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseInstructorDeleteAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentProfilePictureAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.FeedbackSubmissionEditPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.FileDownloadResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorEditStudentFeedbackPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseStudentDetailsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.RedirectResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailLogPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackSubmissionEditSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseStudentDetailsEditSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackEditCopyPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCoursesPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.CreateImageUploadUrlAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackAddAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseDetailsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.Action"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentCourseDetailsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseStudentListDownloadAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentProfileCreateFormUrlAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackCopyAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackEditCopyAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackSubmissionEditPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseJoinAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackAbstractAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminAccountDeleteAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminAccountDetailsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorStudentListAjaxPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminActivityLogPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackRemindParticularStudentsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminStudentGoogleIdResetAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseDeleteAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackSessionsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseStudentDetailsEditPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackRemindAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailComposeSendAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailComposeSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentFeedbackSubmissionEditPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.LoginServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackQuestionCopyAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorEditStudentFeedbackSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminExceptionTestAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.CourseStatsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseArchiveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackResponseCommentAddAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackRemindParticularStudentsAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackResponseCommentAbstractAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseRemindAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseInstructorAbstractAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackQuestionCopyPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentFeedbackSubmissionEditSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailComposePageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.FeedbackSubmissionEditSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.PublicImageServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseAddAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorEditInstructorFeedbackSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.LogoutServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseJoinAuthenticatedAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackEditSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackQuestionEditAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorStudentRecordsAjaxPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AppstatsFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentCourseJoinAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentProfileEditSaveAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorStudentRecordsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackPublishAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.FeedbackSessionStatsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseInstructorAddAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailCreateGroupReceiverListUploadUrlAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackResponseCommentDeleteAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackDeleteAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AjaxResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackResponseCommentEditAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseStudentDeleteAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.EntityModifiedLogsServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentFeedbackResultsPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.ImageUploadAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminInstructorAccountAddAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailTrashDeleteAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminEmailImageUploadAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.StudentProfilePictureUploadAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminHomePageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.ImageResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.AdminAccountManagementPageAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorFeedbackQuestionAddAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.controller.InstructorCourseInstructorEditSaveAction"
+                }
+            ],
+            "@type": "group",
+            "name": "ui.controller"
+        },
+        {
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminTrashEmailTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminEmailCreateGroupReceiverListUploadUrlAjaxPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.EnrollResultPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.ResponseRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackQuestionTableRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminSearchPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackSessionActions"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.FeedbackSessionStatsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsQuestionTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorStudentListSearchBox"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSessionRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorFeedbackResultsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsGroupByParticipantPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.ActiveCoursesTableRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsNoResponsePanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentHomeFeedbackSessionRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentProfile"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackQuestionVisibilitySettings"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorStudentListFilterBox"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorCourseEnrollPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorFeedbackEditPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.CourseEditFeedbackSessionRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminEmailTableRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorCourseEnrollResultPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackResultsTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorCoursesPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackResponseRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorStudentRecordsAjaxPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorSearchPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsFilterPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackQuestionEditForm"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminFeedbackSessionRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorFeedbackEditCopyData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminSearchStudentTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminEmailTrashPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorHomeCourseAjaxPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsResponseRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentListTeamData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorFeedbackResponseCommentAjaxPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackResponsePersonRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsSessionPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.StudentFeedbackResultsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSessionsTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminSentEmailTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.CourseEditSectionRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.ArchivedCoursesTableRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.StudentCourseJoinConfirmationPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.StudentProfileCreateFormUrlAjaxPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorFeedbackRemindParticularStudentsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.CourseStatsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsModerationButton"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminEmailActions"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorHomePageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSessionsCopyFromModal"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorCourseDetailsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorStudentListFilterCourse"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminAccountDetailsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminActivityLogPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSessionsForm"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentFeedbackSubmissionEditQuestionsWithResponses"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.PageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.FileUploadPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentInfoTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentProfileEditBox"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.StudentCourseDetailsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackResultsQuestionDetails"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorFeedbackEditCopyPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminStudentGoogleIdResetPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorStudentListStudentsTableCourse"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.datatransfer.InstructorFeedbackResultsPageViewType"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorHomeFeedbackSessionRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminAccountDetailsInstructorCourseListTableRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResponseComment"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsGroupByQuestionPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSessionsTableRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminSentEmailRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackQuestionCopyTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentFeedbackResultsQuestionWithResponses"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSubmissionEditResponse"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsResponsePanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminActivityLogTableRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminSearchInstructorRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminSearchStudentRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentListStudentData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.datatransfer.InstructorStudentListPageCourseData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstitutionPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorCourseStudentDetailsEditPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackResultsResponseTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminEmailComposePageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.ElementTag"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.SearchCommentsForResponsesTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.CreateImageUploadUrlAjaxPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorStudentRecordsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminTrashEmailActions"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentFeedbackSessionActions"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorFeedbackSessionsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminEmailDraftPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorStudentListAjaxPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.ActiveCoursesTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.CourseTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminSearchStudentLinks"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorFeedbackQuestionVisibilityMessagePageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminDraftEmailTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorCourseJoinConfirmationPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.StudentHomePageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackQuestionFeedbackPathSettings"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminEmailLogPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminEmailPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.StudentProfilePageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.ArchivedCoursesTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSubmissionEditQuestion"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminHomePageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.SearchStudentsTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSessionPreviewForm"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsRemindButton"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentListSectionData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsSecondaryParticipantPanelBody"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminEmailSentPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminSessionsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackResultsResponse"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentProfileUploadPhotoModal"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.QuestionTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorCourseEditPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorStudentListPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminDraftEmailRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.FeedbackSubmissionEditPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorCourseStudentDetailsPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminAccountDetailsStudentCourseListTableRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsParticipantPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.AdminAccountManagementPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminSearchStudentFeedbackSession"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminAccountManagementAccountTableRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSessionPublishButton"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.InstructorFeedbackResultsSectionPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.CourseEditInstructorPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.StudentCourseDetailsPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.HomeFeedbackSessionRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.pagedata.InstructorFeedbackQuestionCopyPageData"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminSearchInstructorTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.AdminTrashEmailRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackSessionsAdditionalSettingsFormSegment"
+                },
+                {
+                    "@type": "item",
+                    "name": "teammates.ui.template.FeedbackResponseCommentRow"
+                }
+            ],
+            "@type": "group",
+            "name": "ui.view"
+        }
+    ]
+}
