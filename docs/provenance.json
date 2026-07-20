@@ -6,8 +6,13 @@
     "reference_decomposition_file": "metadata/reference-decompositions/ant_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/ant_deps.json.xz",
     "dependency_matrix_name": "ant-r584500-source-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "direct Subversion checkout",
+      "upstream_repository": "https://svn.apache.org/repos/asf/ant/core/trunk",
+      "revision": "r584500"
+    }
   },
   {
     "system": "archstudio4",
@@ -16,8 +21,13 @@
     "reference_decomposition_file": "metadata/reference-decompositions/archstudio4_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/archstudio4_deps.json.xz",
     "dependency_matrix_name": "archstudio4-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "git clone/checkout",
+      "upstream_repository": "https://github.com/isr-uci-edu/ArchStudio4.git",
+      "commit": "ba6d9eeeb7aa4cf2348b7036e754841006211b53"
+    }
   },
   {
     "system": "argouml",
@@ -26,8 +36,15 @@
     "reference_decomposition_file": "metadata/reference-decompositions/argouml_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/argouml_deps.json.xz",
     "dependency_matrix_name": "argouml-r13713-source-generated-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "git-svn mirror checkout because original Tigris SVN was unavailable",
+      "mirror_repository": "https://github.com/argouml-tigris-org/argouml.git",
+      "commit": "00eb8d17d929ebc7efea6cfd344ea393bcdc5b7e",
+      "original_svn_repository": "http://argouml.tigris.org/svn/argouml/trunk",
+      "original_svn_revision": "r13713"
+    }
   },
   {
     "system": "bash-4.2",
@@ -36,8 +53,13 @@
     "reference_decomposition_file": "metadata/reference-decompositions/bash-4.2_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/bash-4.2_deps.json.xz",
     "dependency_matrix_name": "bash-4.2-generated-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "official GNU release tarball download; configured/built locally to generate missing generated sources",
+      "upstream_release": "GNU Bash 4.2",
+      "sha256": "a27a1179ec9c0830c65c6aa5d7dab60f7ce1a2a608618570f96bfa72e95ab3d8"
+    }
   },
   {
     "system": "chromium",
@@ -46,8 +68,21 @@
     "reference_decomposition_file": "metadata/reference-decompositions/chromium_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/chromium_deps.json.xz",
     "dependency_matrix_name": "chromium-browser-23.0.1271.97-src-depends-full-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "Ubuntu/Debian source package reconstruction for chromium-browser 23.0.1271.97",
+      "source_package": "chromium-browser",
+      "package_version": "23.0.1271.97-0ubuntu0.11.10.1",
+      "dsc_file": "/home/ubuntu/datasets.downloaded/chromium-browser_23.0.1271.97-0ubuntu0.11.10.1.dsc",
+      "dsc_sha256": "13352b468821c5ca0e20a9c43137d25fbbde05e7a2f38924e132e9aad2f5f283",
+      "orig_tarball": "/home/ubuntu/datasets.downloaded/chromium-browser_23.0.1271.97.orig.tar.xz",
+      "orig_tarball_sha256": "80b87ccd08a12eed5fece39be49e8b14bebb0afe09597ca3181f0c235d2894a3",
+      "debian_tarball": "/home/ubuntu/datasets.downloaded/chromium-browser_23.0.1271.97-0ubuntu0.11.10.1.debian.tar.gz",
+      "debian_tarball_sha256": "017a903058d6ab8a4a735c43914dc615ed9d2bb7f791aade34b671d1dc7229b7",
+      "package_homepage_in_dsc": "http://code.google.com/chromium/",
+      "vcs_bzr_in_dsc": "https://code.launchpad.net/~chromium-team/chromium-browser/chromium-browser.precise"
+    }
   },
   {
     "system": "hadoop",
@@ -56,8 +91,14 @@
     "reference_decomposition_file": "metadata/reference-decompositions/hadoop_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/hadoop_deps.json.xz",
     "dependency_matrix_name": "hadoop-0.19.0-built-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "git clone/checkout; local build generated additional sources",
+      "upstream_repository": "https://github.com/apache/hadoop.git",
+      "commit": "f9ca844e2b853e86d8acfa0fdcec591238413312",
+      "tag": "release-0.19.0"
+    }
   },
   {
     "system": "hdc",
@@ -66,8 +107,13 @@
     "reference_decomposition_file": "metadata/reference-decompositions/hdc_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/hdc_deps.json.xz",
     "dependency_matrix_name": "hdc-distributed_camera-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "git clone/checkout",
+      "upstream_repository": "https://gitee.com/openharmony/distributedhardware_distributed_camera.git",
+      "commit": "46ff87bd91bc12c5b97765c038cfb0da8754c920"
+    }
   },
   {
     "system": "hdf",
@@ -76,8 +122,13 @@
     "reference_decomposition_file": "metadata/reference-decompositions/hdf_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/hdf_deps.json.xz",
     "dependency_matrix_name": "hdf-core-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "git clone/checkout",
+      "upstream_repository": "https://gitee.com/openharmony/drivers_hdf_core.git",
+      "commit": "0e196ffea78d8a3fa2a7906a4967d87d678fd195"
+    }
   },
   {
     "system": "jabref",
@@ -86,8 +137,14 @@
     "reference_decomposition_file": "metadata/reference-decompositions/jabref_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/jabref_deps.json.xz",
     "dependency_matrix_name": "jabref-v3.7-generated-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "git clone/checkout",
+      "upstream_repository": "https://github.com/JabRef/jabref.git",
+      "commit": "d3092b12a1d4bd8dd1dafb720b3fe5ab951cbd7f",
+      "tag": "v3.7"
+    }
   },
   {
     "system": "libxml",
@@ -96,8 +153,14 @@
     "reference_decomposition_file": "metadata/reference-decompositions/libxml_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/libxml_deps.json.xz",
     "dependency_matrix_name": "libxml2-2.4.22-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "git clone/checkout",
+      "upstream_repository": "https://github.com/GNOME/libxml2.git",
+      "commit": "d5e22ef5802bc1d2d730cded59a700a88abfa47a",
+      "tag": "LIBXML_2_4_22"
+    }
   },
   {
     "system": "lucene",
@@ -106,8 +169,13 @@
     "reference_decomposition_file": "metadata/reference-decompositions/lucene_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/lucene_deps.json.xz",
     "dependency_matrix_name": "lucene-r1075001-source-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "direct Subversion checkout",
+      "upstream_repository": "https://svn.apache.org/repos/asf/lucene/dev/trunk",
+      "revision": "r1075001"
+    }
   },
   {
     "system": "oodt",
@@ -116,8 +184,14 @@
     "reference_decomposition_file": "metadata/reference-decompositions/oodt_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/oodt_deps.json.xz",
     "dependency_matrix_name": "oodt-0.2-tag-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "git clone/checkout",
+      "upstream_repository": "https://github.com/apache/oodt.git",
+      "commit": "e927bcef90561a762e6c2e9c2750b419284e36d5",
+      "tag": "0.2"
+    }
   },
   {
     "system": "sweethome3d",
@@ -126,8 +200,13 @@
     "reference_decomposition_file": "metadata/reference-decompositions/sweethome3d_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/sweethome3d_deps.json.xz",
     "dependency_matrix_name": "sweethome3d-r002382-source-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "direct Subversion checkout",
+      "upstream_repository": "https://svn.code.sf.net/p/sweethome3d/code/trunk",
+      "revision": "r2382 (archive identifier r002382)"
+    }
   },
   {
     "system": "teammates",
@@ -136,7 +215,12 @@
     "reference_decomposition_file": "metadata/reference-decompositions/teammates_gt.json",
     "dependency_matrix_file": "metadata/dependency-matrices/teammates_deps.json.xz",
     "dependency_matrix_name": "teammates-5.110-depends-file-sdsm",
-    "source_provenance_status": "TODO: verify upstream URL and retrieval method",
-    "reference_decomposition_provenance_status": "TODO: verify label source"
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "TODO: verify label source",
+    "source_retrieval_provenance": {
+      "method": "SAEroCon dataset source snapshot copied from SAEroCon repository",
+      "upstream_dataset_source": "/home/ubuntu/datasets/SAEroConRepo/systems/TEAMMATES/sources/5.110 (original collection path during reconstruction)",
+      "snapshot_identifier": "5.110"
+    }
   }
 ]
