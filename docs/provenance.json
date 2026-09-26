@@ -85,6 +85,31 @@
     }
   },
   {
+    "system": "commons-imaging",
+    "source_snapshot_identifier": "commons-imaging-a2d77b8",
+    "source_root_in_archive": "commons-imaging",
+    "reference_decomposition_file": "metadata/reference-decompositions/commons-imaging_gt.json",
+    "dependency_matrix_file": "metadata/dependency-matrices/commons-imaging_deps.json.xz",
+    "dependency_matrix_name": "commons-imaging-a2d77b8-depends-file-sdsm",
+    "source_provenance_status": "see source_retrieval_provenance",
+    "reference_decomposition_provenance_status": "maintainer-contributed ground truth",
+    "source_retrieval_provenance": {
+      "method": "git clone/checkout",
+      "upstream_repository": "https://github.com/apache/commons-imaging",
+      "commit": "a2d77b8fa6fba0993fb11f177f5ca8373d3791f9"
+    },
+    "reference_decomposition_provenance": {
+      "method": "direct contribution",
+      "contributor": "Bruno P. Kinoshita",
+      "contributor_role": "Apache Commons Imaging maintainer",
+      "sha256": "fc7f824f479d64cc7cb15fd12d6c280e05487b6e1c6a22ab0efff4ba401e5c36"
+    },
+    "dependency_matrix_provenance": {
+      "method": "provided dataset input; matrix name identifies a Depends file-level SDSM",
+      "sha256_uncompressed_json": "a38a3f709f920d2754f342e89a0bfef23b664a3c5b86e91a4f703fa31d524311"
+    }
+  },
+  {
     "system": "hadoop",
     "source_snapshot_identifier": "hadoop-0.19.0-built",
     "source_root_in_archive": "hadoop",

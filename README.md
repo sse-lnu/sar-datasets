@@ -46,6 +46,11 @@ The archives under `archives/gt-deps-source/` are GT+deps subsets. They preserve
 - the per-system reference decomposition JSON;
 - the per-system dependency matrix JSON.
 
+The Commons Imaging package is pinned to commit
+`a2d77b8fa6fba0993fb11f177f5ca8373d3791f9`. Its reference decomposition was
+contributed by Apache Commons Imaging maintainer Bruno P. Kinoshita; the exact
+source and label provenance is recorded in `docs/provenance.json`.
+
 They do not aim to preserve complete, buildable upstream projects. Binary-content files, nested Git repositories, and unrelated files outside the selected source set were removed to keep the repository small and suitable for GitHub.
 
 ## Traceability
