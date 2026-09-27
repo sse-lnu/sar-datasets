@@ -1,0 +1,16 @@
+system	language	extraction_mode	method_nodes	method_cells	relation_weight	status
+ant	java	native_method	13180	17536	23790	complete
+archstudio4	java	native_method	23263	38025	52905	complete
+argouml	java	native_method	17554	27755	40626	complete
+bash-4.2	cpp	structure_projection	4790	1179	3289	complete
+commons-imaging	java	native_method	2773	2908	4830	complete
+hadoop	java	native_method	18909	28167	39607	complete
+hdc	cpp	structure_projection	2511	1418	1634	complete
+hdf	cpp	structure_projection	11198	20319	45210	complete
+jabref	java	native_method	11230	15437	24055	complete
+libxml	cpp	structure_projection	3312	6315	14447	complete
+lucene	java	native_method	13176	25443	42845	complete
+oodt	java	native_method	7155	8296	11749	complete
+sweethome3d	java	native_method	4555	8379	13190	complete
+teammates	java	native_method	8075	19000	35025	complete
+chromium	cpp	structure_projection				pending

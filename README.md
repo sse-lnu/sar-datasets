@@ -11,7 +11,11 @@ archives/gt-deps-source/        Per-system source subsets as .tar.xz archives
 metadata/reference-decompositions/
                                 Reference architecture/module decompositions
 metadata/dependency-matrices/   Dependency matrices as compressed JSON
+metadata/method-dependency-matrices/
+                                Method-level dependency matrices and manifest
 metadata/dataset-summary.tsv    Per-system file counts and archive sizes
+metadata/method-dependency-summary.tsv
+                                Method-node, edge, and generation status summary
 docs/provenance.json            Traceability records for source snapshots and labels
 checksums/SHA256SUMS            SHA-256 checksums for repository artifacts
 scripts/                        Helper scripts
@@ -35,6 +39,18 @@ Unpack a dependency matrix for inspection:
 
 ```sh
 xz -dk metadata/dependency-matrices/chromium_deps.json.xz
+```
+
+Unpack a method-level dependency matrix:
+
+```sh
+xz -dk metadata/method-dependency-matrices/argouml_method_deps.json.xz
+```
+
+Validate every packaged method matrix against its generation manifest:
+
+```sh
+python3 scripts/verify-method-dependencies.py
 ```
 
 ## Dataset Scope
@@ -68,6 +84,28 @@ history-library files, while Chromium's complete author-published RSF remains
 the reference authority. These boundaries are recorded in `docs/provenance.json`.
 
 They do not aim to preserve complete, buildable upstream projects. Binary-content files, nested Git repositories, and unrelated files outside the selected source set were removed to keep the repository small and suitable for GitHub.
+
+## Method-level dependencies
+
+Method-level matrices are available for 14 systems. Chromium is intentionally
+pending because its extraction is substantially more expensive and was deferred
+so that experiments over the other systems could begin.
+
+All matrices were generated with the shipped Depends 0.9.7 JAR using its legacy
+ANTLR Java parser. The exact JAR SHA-256 is
+`004b232f258b15a85195accb37905a339a01de7b99ea5029be3fc0ea8d3664e7`.
+Java matrices are the native `method` output. Depends 0.9.7 has a method-output
+generator defect for C/C++: it emits method nodes but no edges even though its
+detailed `structure` output contains function-to-function relations. The Bash,
+HDC, HDF, and libxml matrices therefore retain the native method-node universe
+and deterministically project only those function-to-function relations already
+emitted by the unmodified parser. Every projected endpoint was matched to a
+native method node.
+
+See `metadata/method-dependency-matrices/generation-manifest.json` for per-system
+counts, hashes, source snapshot identifiers, and extraction modes. The complete
+procedure and reproduction command are in
+`docs/method-dependency-generation.md`.
 
 ## Traceability
 

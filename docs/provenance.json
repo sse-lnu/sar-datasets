@@ -12,7 +12,11 @@
       "method": "direct Subversion checkout",
       "upstream_repository": "https://svn.apache.org/repos/asf/ant/core/trunk",
       "revision": "r584500"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/ant_method_deps.json.xz",
+    "method_dependency_matrix_name": "ant-r584500-source-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "archstudio4",
@@ -27,7 +31,11 @@
       "method": "exact git archive of the initial commit; supersedes a later checkout containing an unrelated Test.java",
       "upstream_repository": "https://github.com/isr-uci-edu/ArchStudio4.git",
       "commit": "afdcb17df90d44b121cdb300f283ef13e063c904"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/archstudio4_method_deps.json.xz",
+    "method_dependency_matrix_name": "archstudio4-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "argouml",
@@ -54,7 +62,11 @@
         "codeGeneration+javaCodeGeneration": "javaCodeGeneration",
         "explorer+gui": "explorer"
       }
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/argouml_method_deps.json.xz",
+    "method_dependency_matrix_name": "argouml-r13713-source-generated-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "bash-4.2",
@@ -70,7 +82,11 @@
       "method": "official GNU release tarball download; configured/built locally to generate missing generated sources",
       "upstream_release": "GNU Bash 4.2",
       "sha256": "a27a1179ec9c0830c65c6aa5d7dab60f7ce1a2a608618570f96bfa72e95ab3d8"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/bash-4.2_method_deps.json.xz",
+    "method_dependency_matrix_name": "bash-4.2-generated-depends-method-sdsm",
+    "method_dependency_generation_mode": "structure_projection",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "chromium",
@@ -99,7 +115,9 @@
       "debian_tarball_sha256": "017a903058d6ab8a4a735c43914dc615ed9d2bb7f791aade34b671d1dc7229b7",
       "package_homepage_in_dsc": "http://code.google.com/chromium/",
       "vcs_bzr_in_dsc": "https://code.launchpad.net/~chromium-team/chromium-browser/chromium-browser.precise"
-    }
+    },
+    "method_dependency_matrix_status": "pending",
+    "method_dependency_matrix_reason": "explicitly deferred from the 2026-09-27 non-Chromium generation"
   },
   {
     "system": "commons-imaging",
@@ -124,7 +142,11 @@
     "dependency_matrix_provenance": {
       "method": "provided dataset input; matrix name identifies a Depends file-level SDSM",
       "sha256_uncompressed_json": "a38a3f709f920d2754f342e89a0bfef23b664a3c5b86e91a4f703fa31d524311"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/commons-imaging_method_deps.json.xz",
+    "method_dependency_matrix_name": "commons-imaging-a2d77b8-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "hadoop",
@@ -140,7 +162,11 @@
       "upstream_repository": "https://github.com/apache/hadoop.git",
       "commit": "f9ca844e2b853e86d8acfa0fdcec591238413312",
       "tag": "release-0.19.0"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/hadoop_method_deps.json.xz",
+    "method_dependency_matrix_name": "hadoop-0.19.0-built-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "hdc",
@@ -155,7 +181,11 @@
       "method": "git clone/checkout",
       "upstream_repository": "https://gitee.com/openharmony/distributedhardware_distributed_camera.git",
       "commit": "46ff87bd91bc12c5b97765c038cfb0da8754c920"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/hdc_method_deps.json.xz",
+    "method_dependency_matrix_name": "hdc-distributed_camera-depends-method-sdsm",
+    "method_dependency_generation_mode": "structure_projection",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "hdf",
@@ -170,7 +200,11 @@
       "method": "git clone/checkout",
       "upstream_repository": "https://gitee.com/openharmony/drivers_hdf_core.git",
       "commit": "0e196ffea78d8a3fa2a7906a4967d87d678fd195"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/hdf_method_deps.json.xz",
+    "method_dependency_matrix_name": "hdf-core-depends-method-sdsm",
+    "method_dependency_generation_mode": "structure_projection",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "jabref",
@@ -186,7 +220,11 @@
       "upstream_repository": "https://github.com/JabRef/jabref.git",
       "commit": "d3092b12a1d4bd8dd1dafb720b3fe5ab951cbd7f",
       "tag": "v3.7"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/jabref_method_deps.json.xz",
+    "method_dependency_matrix_name": "jabref-v3.7-generated-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "libxml",
@@ -202,7 +240,11 @@
       "upstream_repository": "https://github.com/GNOME/libxml2.git",
       "commit": "d5e22ef5802bc1d2d730cded59a700a88abfa47a",
       "tag": "LIBXML_2_4_22"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/libxml_method_deps.json.xz",
+    "method_dependency_matrix_name": "libxml2-2.4.22-depends-method-sdsm",
+    "method_dependency_generation_mode": "structure_projection",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "lucene",
@@ -225,7 +267,11 @@
       "generated_reference_sha256": "592701242458bab07c38da28b216fbe182533c7ace647cf4854db49231fae1d3",
       "mapped_files": 1121,
       "unmapped_files": 129
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/lucene_method_deps.json.xz",
+    "method_dependency_matrix_name": "lucene-r1075001-source-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "oodt",
@@ -241,7 +287,11 @@
       "upstream_repository": "https://github.com/apache/oodt.git",
       "commit": "e927bcef90561a762e6c2e9c2750b419284e36d5",
       "tag": "0.2"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/oodt_method_deps.json.xz",
+    "method_dependency_matrix_name": "oodt-0.2-tag-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "sweethome3d",
@@ -256,7 +306,11 @@
       "method": "direct Subversion checkout",
       "upstream_repository": "https://svn.code.sf.net/p/sweethome3d/code/trunk",
       "revision": "r2382 (archive identifier r002382)"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/sweethome3d_method_deps.json.xz",
+    "method_dependency_matrix_name": "sweethome3d-r002382-source-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   },
   {
     "system": "teammates",
@@ -271,6 +325,10 @@
       "method": "SAEroCon dataset source snapshot copied from SAEroCon repository",
       "upstream_dataset_source": "/home/ubuntu/datasets/SAEroConRepo/systems/TEAMMATES/sources/5.110 (original collection path during reconstruction)",
       "snapshot_identifier": "5.110"
-    }
+    },
+    "method_dependency_matrix_file": "metadata/method-dependency-matrices/teammates_method_deps.json.xz",
+    "method_dependency_matrix_name": "teammates-5.110-depends-method-sdsm",
+    "method_dependency_generation_mode": "native_method",
+    "method_dependency_provenance": "metadata/method-dependency-matrices/generation-manifest.json"
   }
 ]
