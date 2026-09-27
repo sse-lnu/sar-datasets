@@ -1,0 +1,4540 @@
+{
+  "@schemaVersion": "1.0",
+  "generation": {
+    "dependency_sha256": "e1f817806237734b5ffad5048f2049898a2f6f0dc1f76bc2e37ef5ecf8c5057d",
+    "method": "package-regex-file-mapping-v1",
+    "model_sha256": "36ebdfd101c3aee489379e5a057584e4b323f842cd9c8c5115386d094553f8eb",
+    "snapshot_id": "r1075001",
+    "source_manifest_sha256": "2323b81a86427432490572a4628f52020f22b746765d3239d18a111457783162"
+  },
+  "name": "lucene",
+  "root_packages": [],
+  "structure": [
+    {
+      "@type": "group",
+      "name": "queryparser",
+      "nested": [
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/analyzing/AnalyzingQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/complexPhrase/ComplexPhraseQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/QueryNodeError.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/QueryNodeException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/QueryNodeParseException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/QueryParserHelper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/builders/QueryBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/builders/QueryTreeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/config/FieldConfig.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/config/FieldConfigListener.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/config/QueryConfigHandler.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/messages/QueryParserMessages.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/AndQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/AnyQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/BooleanQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/BoostQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/DeletedQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/FieldQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/FieldableNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/FuzzyQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/GroupQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/MatchAllDocsQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/MatchNoDocsQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/ModifierQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/NoTokenFoundQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/OpaqueQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/OrQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/ParametricQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/ParametricRangeQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/PathQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/PhraseSlopQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/ProximityQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/QueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/QueryNodeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/QuotedFieldQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/SlopQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/TextableQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/nodes/TokenizedPhraseQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/parser/EscapeQuerySyntax.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/parser/SyntaxParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/processors/NoChildOptimizationQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/processors/QueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/processors/QueryNodeProcessorImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/processors/QueryNodeProcessorPipeline.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/processors/RemoveDeletedQueryNodesProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/util/QueryNodeOperation.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/util/StringUtils.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/core/util/UnescapedCharSequence.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/ext/ExtendableQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/ext/ExtensionQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/ext/Extensions.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/ext/ParserExtension.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/precedence/PrecedenceQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/precedence/processors/BooleanModifiersQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/precedence/processors/PrecedenceQueryNodeProcessorPipeline.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/QueryParserUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/StandardQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/AnyQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/BooleanQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/BoostQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/FieldQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/FuzzyQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/GroupQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/MatchAllDocsQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/MatchNoDocsQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/ModifierQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/MultiPhraseQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/PhraseQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/PrefixWildcardQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/RangeQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/RegexpQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/SlopQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/StandardBooleanQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/StandardQueryBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/StandardQueryTreeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/builders/WildcardQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/AllowLeadingWildcardAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/AllowLeadingWildcardAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/AnalyzerAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/AnalyzerAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/BoostAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/BoostAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/DateResolutionAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/DateResolutionAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/DefaultOperatorAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/DefaultOperatorAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/DefaultPhraseSlopAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/DefaultPhraseSlopAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/FieldBoostMapAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/FieldBoostMapAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/FieldBoostMapFCListener.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/FieldDateResolutionFCListener.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/FieldDateResolutionMapAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/FieldDateResolutionMapAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/FuzzyAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/FuzzyAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/LocaleAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/LocaleAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/LowercaseExpandedTermsAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/LowercaseExpandedTermsAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/MultiFieldAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/MultiFieldAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/MultiTermRewriteMethodAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/MultiTermRewriteMethodAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/PositionIncrementsAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/PositionIncrementsAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/RangeCollatorAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/RangeCollatorAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/config/StandardQueryConfigHandler.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/nodes/BooleanModifierNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/nodes/MultiPhraseQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/nodes/PrefixWildcardQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/nodes/RangeQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/nodes/RegexpQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/nodes/StandardBooleanQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/nodes/WildcardQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/parser/EscapeQuerySyntaxImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/parser/JavaCharStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/parser/ParseException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/parser/StandardSyntaxParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/parser/StandardSyntaxParserConstants.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/parser/StandardSyntaxParserTokenManager.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/parser/Token.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/parser/TokenMgrError.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/AllowLeadingWildcardProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/AnalyzerQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/BooleanSingleChildOptimizationQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/BoostQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/DefaultPhraseSlopQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/FuzzyQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/GroupQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/LowercaseExpandedTermsQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/MatchAllDocsQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/MultiFieldQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/MultiTermRewriteMethodProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/ParametricRangeQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/PhraseSlopQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/RemoveEmptyNonLeafQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/StandardQueryNodeProcessorPipeline.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/standard/processors/WildcardQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/parser/CharStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/parser/FastCharStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/parser/ParseException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/parser/QueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/parser/QueryParserConstants.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/parser/QueryParserTokenManager.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/parser/Token.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/parser/TokenMgrError.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/AndQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/BasicQueryFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/ComposedQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/DistanceQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/DistanceSubQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/FieldsQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/NotQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/OrQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/SimpleTerm.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/SpanNearClauseFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/SrndBooleanQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/SrndPrefixQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/SrndQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/SrndTermQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/SrndTruncQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/java/org/apache/lucene/queryParser/surround/query/TooManyBasicQueries.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/analyzing/TestAnalyzingQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/complexPhrase/TestComplexPhraseQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/core/builders/TestQueryTreeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/core/nodes/TestQueryNode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/ext/ExtensionStub.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/ext/TestExtendableQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/ext/TestExtensions.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/precedence/TestPrecedenceQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/SpanOrQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/SpanTermQueryNodeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/SpansQueryConfigHandler.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/SpansQueryTreeBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/SpansValidatorQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/TestSpanQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/TestSpanQueryParserSimpleSample.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/UniqueFieldAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/UniqueFieldAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/spans/UniqueFieldQueryNodeProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/standard/TestMultiAnalyzerQPHelper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/standard/TestMultiFieldQPHelper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/standard/TestQPHelper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/standard/config/TestAttributes.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/surround/query/BooleanQueryTst.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/surround/query/ExceptionQueryTst.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/surround/query/SingleFieldTestDb.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/surround/query/Test01Exceptions.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/surround/query/Test02Boolean.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queryparser/src/test/org/apache/lucene/queryParser/surround/query/Test03Distance.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/CharStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/FastCharStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/MultiFieldQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/ParseException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/QueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/QueryParserBase.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/QueryParserConstants.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/QueryParserTokenManager.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/Token.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/queryParser/TokenMgrError.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/queryParser/TestMultiAnalyzer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/queryParser/TestMultiFieldQueryParser.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/queryParser/TestQueryParser.java"
+        }
+      ]
+    },
+    {
+      "@type": "group",
+      "name": "search",
+      "nested": [
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/DefaultEncoder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/Encoder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/Formatter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/Fragmenter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/GradientFormatter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/Highlighter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/InvalidTokenOffsetsException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/NullFragmenter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/QueryScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/QueryTermExtractor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/QueryTermScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/Scorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/SimpleFragmenter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/SimpleHTMLEncoder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/SimpleHTMLFormatter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/SimpleSpanFragmenter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/SpanGradientFormatter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/TextFragment.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/TokenGroup.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/TokenSources.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/TokenStreamFromTermPositionVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/WeightedSpanTerm.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/WeightedSpanTermExtractor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/highlight/WeightedTerm.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/BaseFragmentsBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/FastVectorHighlighter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/FieldFragList.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/FieldPhraseList.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/FieldQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/FieldTermStack.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/FragListBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/FragmentsBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/ScoreOrderFragmentsBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/SimpleFragListBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/SimpleFragmentsBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/java/org/apache/lucene/search/vectorhighlight/SingleFragListBuilder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/highlight/HighlighterPhraseTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/highlight/HighlighterTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/highlight/TokenSourcesTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/vectorhighlight/AbstractTestCase.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/vectorhighlight/FieldPhraseListTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/vectorhighlight/FieldQueryTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/vectorhighlight/FieldTermStackTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/vectorhighlight/IndexTimeSynonymTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/vectorhighlight/ScoreOrderFragmentsBuilderTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/vectorhighlight/SimpleFragListBuilderTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/vectorhighlight/SimpleFragmentsBuilderTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/highlighter/src/test/org/apache/lucene/search/vectorhighlight/SingleFragListBuilderTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/BooleanFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/BoostingQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/ChainedFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/DuplicateFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/FieldCacheRewriteMethod.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/FilterClause.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/FuzzyLikeThisQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/TermsFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/regex/JakartaRegexpCapabilities.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/regex/JavaUtilRegexCapabilities.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/regex/RegexCapabilities.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/regex/RegexQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/regex/RegexQueryCapable.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/regex/RegexTermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/similar/MoreLikeThis.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/similar/MoreLikeThisQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/java/org/apache/lucene/search/similar/SimilarityQueries.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/BooleanFilterTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/BoostingQueryTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/ChainedFilterTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/DuplicateFilterTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/FuzzyLikeThisQueryTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/TermsFilterTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/TestFieldCacheRewriteMethod.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/regex/TestJakartaRegexpCapabilities.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/regex/TestRegexQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/regex/TestSpanRegexQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/queries/src/test/org/apache/lucene/search/similar/TestMoreLikeThis.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/Dictionary.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/DirectSpellChecker.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/JaroWinklerDistance.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/LevensteinDistance.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/LuceneDictionary.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/NGramDistance.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/PlainTextDictionary.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/SpellChecker.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/StringDistance.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/SuggestWord.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/SuggestWordFrequencyComparator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/SuggestWordQueue.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/java/org/apache/lucene/search/spell/SuggestWordScoreComparator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/test/org/apache/lucene/search/spell/TestDirectSpellChecker.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/test/org/apache/lucene/search/spell/TestJaroWinklerDistance.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/test/org/apache/lucene/search/spell/TestLevenshteinDistance.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/test/org/apache/lucene/search/spell/TestLuceneDictionary.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/test/org/apache/lucene/search/spell/TestNGramDistance.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/test/org/apache/lucene/search/spell/TestPlainTextDictionary.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/spellchecker/src/test/org/apache/lucene/search/spell/TestSpellChecker.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/AutomatonQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/AutomatonTermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/BooleanClause.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/BooleanQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/BooleanScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/BooleanScorer2.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/BoostAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/BoostAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/CachingSpanFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/CachingWrapperFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/Collector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ComplexExplanation.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ConjunctionScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ConstantScoreAutoRewrite.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ConstantScoreQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/DefaultSimilarity.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/DisjunctionMaxQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/DisjunctionMaxScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/DisjunctionSumScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/DocIdSet.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/DocIdSetIterator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ExactPhraseScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/Explanation.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FieldCache.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FieldCacheImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FieldCacheRangeFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FieldCacheTermsFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FieldComparator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FieldComparatorSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FieldDoc.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FieldDocSortedHitQueue.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FieldValueHitQueue.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/Filter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FilteredDocIdSet.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FilteredDocIdSetIterator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FilteredQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FilteredTermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FuzzyQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/FuzzyTermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/HitQueue.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/IndexSearcher.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/MatchAllDocsQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/MaxNonCompetitiveBoostAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/MaxNonCompetitiveBoostAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/MultiCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/MultiPhraseQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/MultiTermQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/MultiTermQueryWrapperFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/NumericRangeFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/NumericRangeQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/PhrasePositions.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/PhraseQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/PhraseQueue.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/PhraseScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/PositiveScoresOnlyCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/PrefixFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/PrefixQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/PrefixTermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/Query.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/QueryTermVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/QueryWrapperFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/RegexpQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ReqExclScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ReqOptSumScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ScoreCachingWrappingScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ScoreDoc.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/Scorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/ScoringRewrite.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/Similarity.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/SimilarityProvider.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/SingleTermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/SloppyPhraseScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/Sort.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/SortField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/SpanFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/SpanFilterResult.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/SpanQueryFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TermCollectingRewrite.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TermQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TermRangeFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TermRangeQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TermRangeTermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TermScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TimeLimitingCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TopDocs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TopDocsCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TopFieldCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TopFieldDocs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TopScoreDocCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TopTermsRewrite.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/TotalHitCountCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/Weight.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/WildcardQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/ByteValuesCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/CachedArray.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/CachedArrayCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/DocTermsCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/DocTermsIndexCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/DoubleValuesCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/EntryCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/EntryCreatorWithOptions.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/EntryKey.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/FloatValuesCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/IntValuesCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/LongValuesCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/ShortValuesCreator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/cache/SimpleEntryKey.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/ByteFieldSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/CustomScoreProvider.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/CustomScoreQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/DocValues.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/FieldCacheSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/FieldScoreQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/FloatFieldSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/IntFieldSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/MultiValueSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/OrdFieldSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/ReverseOrdFieldSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/ShortFieldSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/ValueSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/function/ValueSourceQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/payloads/AveragePayloadFunction.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/payloads/MaxPayloadFunction.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/payloads/MinPayloadFunction.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/payloads/PayloadFunction.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/payloads/PayloadNearQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/payloads/PayloadSpanUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/payloads/PayloadTermQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/FieldMaskingSpanQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/NearSpansOrdered.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/NearSpansUnordered.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanFirstQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanNearPayloadCheckQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanNearQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanNotQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanOrQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanPayloadCheckQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanPositionCheckQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanPositionRangeQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanTermQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/SpanWeight.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/Spans.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/search/spans/TermSpans.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/search/CheckHits.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/search/QueryUtils.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/BaseTestRangeFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/CachingWrapperFilterHelper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/JustCompileSearch.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/MockFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/MultiCollectorTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/SingleDocTestFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestAutomatonQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestAutomatonQueryUnicode.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestBoolean2.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestBooleanMinShouldMatch.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestBooleanOr.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestBooleanQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestBooleanScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestCachingSpanFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestCachingWrapperFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestComplexExplanations.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestComplexExplanationsOfNonMatches.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestConstantScoreQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestCustomSearcherSort.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestDateFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestDateSort.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestDisjunctionMaxQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestDocBoost.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestDocIdSet.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestElevationComparator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestExplanations.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestFieldCache.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestFieldCacheRangeFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestFieldCacheTermsFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestFilteredQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestFilteredSearch.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestFuzzyQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestFuzzyQuery2.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestMatchAllDocsQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestMultiPhraseQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestMultiTermConstantScore.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestMultiTermQueryRewrites.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestMultiThreadTermVectors.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestMultiValuedNumericRangeQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestNot.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestNumericRangeQuery32.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestNumericRangeQuery64.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestPhrasePrefixQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestPhraseQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestPositionIncrement.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestPositiveScoresOnlyCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestPrefixFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestPrefixInBooleanQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestPrefixQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestPrefixRandom.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestQueryTermVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestQueryWrapperFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestRegexpQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestRegexpRandom.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestRegexpRandom2.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestScoreCachingWrappingScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestScorerPerf.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSearchWithThreads.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSetNorm.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSimilarity.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSimilarityProvider.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSimpleExplanations.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSimpleExplanationsOfNonMatches.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSloppyPhraseQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSort.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSpanQueryFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestSubScorerFreqs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestTermRangeFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestTermRangeQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestTermScorer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestTermVectors.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestThreadSafe.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestTimeLimitingCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestTopDocsCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestTopScoreDocCollector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestWildcard.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/TestWildcardRandom.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/cache/TestEntryCreators.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/function/FunctionTestSetup.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/function/JustCompileSearchSpans.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/function/TestCustomScoreQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/function/TestDocValues.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/function/TestFieldScoreQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/function/TestOrdValues.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/function/TestValueSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/payloads/PayloadHelper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/payloads/TestPayloadNearQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/payloads/TestPayloadTermQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/JustCompileSearchSpans.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/MultiSpansWrapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestBasics.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestFieldMaskingSpanQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestNearSpansOrdered.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestPayloadSpans.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestSpanExplanations.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestSpanExplanationsOfNonMatches.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestSpanFirstQuery.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestSpanMultiTermQueryWrapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestSpans.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestSpansAdvanced.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/search/spans/TestSpansAdvanced2.java"
+        }
+      ]
+    },
+    {
+      "@type": "group",
+      "name": "index",
+      "nested": [
+        {
+          "@type": "item",
+          "name": "lucene/contrib/memory/src/java/org/apache/lucene/index/memory/MemoryIndex.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/memory/src/test/org/apache/lucene/index/memory/MemoryIndexTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/BalancedSegmentMergePolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/FieldNormModifier.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/IndexSplitter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/MultiPassIndexSplitter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/TermVectorAccessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/codecs/appending/AppendingCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/codecs/appending/AppendingSegmentInfosReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/codecs/appending/AppendingSegmentInfosWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/codecs/appending/AppendingTermsDictReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/codecs/appending/AppendingTermsDictWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/codecs/appending/AppendingTermsIndexReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/index/codecs/appending/AppendingTermsIndexWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/test/org/apache/lucene/index/TestFieldNormModifier.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/test/org/apache/lucene/index/TestIndexSplitter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/test/org/apache/lucene/index/TestMultiPassIndexSplitter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/test/org/apache/lucene/index/TestTermVectorAccessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/test/org/apache/lucene/index/codecs/appending/TestAppendingCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/BufferedDeletes.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/BufferedDeletesStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/ByteSliceReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/ByteSliceWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/CheckIndex.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/CompoundFileReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/CompoundFileWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/ConcurrentMergeScheduler.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/CorruptIndexException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DirectoryReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocConsumer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocConsumerPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocFieldConsumer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocFieldConsumerPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocFieldConsumerPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocFieldProcessor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocFieldProcessorPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocFieldProcessorPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocInverter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocInverterPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocInverterPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocsAndPositionsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocumentsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/DocumentsWriterThreadState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FieldInfo.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FieldInfos.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FieldInvertState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FieldReaderException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FieldSortedTermVectorMapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/Fields.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FieldsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FieldsReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FieldsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FilterIndexReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FreqProxFieldMergeState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FreqProxTermsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FreqProxTermsWriterPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FreqProxTermsWriterPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/FrozenBufferedDeletes.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexCommit.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexDeletionPolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexFileDeleter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexFileNameFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexFileNames.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexFormatTooNewException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexFormatTooOldException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexNotFoundException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IndexWriterConfig.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/IntBlockPool.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/InvertedDocConsumer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/InvertedDocConsumerPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/InvertedDocConsumerPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/InvertedDocEndConsumer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/InvertedDocEndConsumerPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/InvertedDocEndConsumerPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/KeepOnlyLastCommitDeletionPolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/LogByteSizeMergePolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/LogDocMergePolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/LogMergePolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MergeDocIDRemapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MergePolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MergeScheduler.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MultiDocsAndPositionsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MultiDocsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MultiFields.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MultiFieldsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MultiNorms.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MultiReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MultiTerms.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/MultiTermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/NoDeletionPolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/NoMergePolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/NoMergeScheduler.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/NormsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/NormsWriterPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/NormsWriterPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/OrdTermState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/ParallelPostingsArray.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/ParallelReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/Payload.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/PayloadProcessorProvider.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/PerFieldCodecWrapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/PersistentSnapshotDeletionPolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/PositionBasedTermVectorMapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/ReusableStringReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SegmentCodecs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SegmentInfo.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SegmentInfos.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SegmentMerger.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SegmentReadState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SegmentReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SegmentTermPositionVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SegmentTermVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SegmentWriteState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SerialMergeScheduler.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SlowMultiReaderWrapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SnapshotDeletionPolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/SortedTermVectorMapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/StaleReaderException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/StoredFieldsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/StoredFieldsWriterPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/Term.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermFreqVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermPositionVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermVectorEntry.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermVectorEntryFreqSortedComparator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermVectorMapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermVectorOffsetInfo.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermVectorsReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermVectorsTermsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermVectorsTermsWriterPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermVectorsTermsWriterPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermVectorsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/Terms.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermsHash.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermsHashConsumer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermsHashConsumerPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermsHashConsumerPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermsHashPerField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/TermsHashPerThread.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/BlockTermState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/BlockTermsReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/BlockTermsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/Codec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/CodecProvider.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/CoreCodecProvider.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/DefaultSegmentInfosReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/DefaultSegmentInfosWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/FieldsConsumer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/FieldsProducer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/FixedGapTermsIndexReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/FixedGapTermsIndexWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/MappingMultiDocsAndPositionsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/MappingMultiDocsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/MergeState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/MultiLevelSkipListReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/MultiLevelSkipListWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/PostingsConsumer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/PostingsReaderBase.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/PostingsWriterBase.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/SegmentInfosReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/SegmentInfosWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/TermStats.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/TermsConsumer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/TermsIndexReaderBase.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/TermsIndexWriterBase.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/VariableGapTermsIndexReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/VariableGapTermsIndexWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/intblock/FixedIntBlockIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/intblock/FixedIntBlockIndexOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/intblock/VariableIntBlockIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/intblock/VariableIntBlockIndexOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/preflex/PreFlexCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/preflex/PreFlexFields.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/preflex/SegmentTermDocs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/preflex/SegmentTermEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/preflex/SegmentTermPositions.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/preflex/TermBuffer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/preflex/TermInfo.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/preflex/TermInfosReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/pulsing/PulsingCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/pulsing/PulsingPostingsReaderImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/pulsing/PulsingPostingsWriterImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/sep/IntIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/sep/IntIndexOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/sep/IntStreamFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/sep/SepPostingsReaderImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/sep/SepPostingsWriterImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/sep/SepSkipListReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/sep/SepSkipListWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/simpletext/SimpleTextCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/simpletext/SimpleTextFieldsReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/simpletext/SimpleTextFieldsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/standard/DefaultSkipListReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/standard/DefaultSkipListWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/standard/StandardCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/standard/StandardPostingsReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/index/codecs/standard/StandardPostingsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/DocHelper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/MockIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/MockRandomMergePolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/RandomIndexWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/mockintblock/MockFixedIntBlockCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/mockintblock/MockVariableIntBlockCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/mockrandom/MockRandomCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/mocksep/MockSepCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/mocksep/MockSingleIntFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/mocksep/MockSingleIntIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/mocksep/MockSingleIntIndexOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/preflexrw/PreFlexFieldsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/preflexrw/PreFlexRWCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/index/codecs/preflexrw/TermInfosWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/Test2BTerms.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestAddIndexes.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestAtomicUpdate.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestBackwardsCompatibility.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestByteSlices.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestCheckIndex.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestCodecs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestCompoundFile.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestConcurrentMergeScheduler.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestConsistentFieldNumbers.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestCrash.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestDeletionPolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestDirectoryReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestDoc.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestDocsAndPositions.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestDocumentWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestFieldInfos.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestFieldsReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestFilterIndexReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestFlex.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexCommit.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexFileDeleter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexReaderClone.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexReaderCloneNorms.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexReaderReopen.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterConfig.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterDelete.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterExceptions.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterLockRelease.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterMergePolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterMerging.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterOnDiskFull.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterOnJRECrash.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIndexWriterWithThreads.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestIsCurrent.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestLazyBug.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestLazyProxSkipping.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestMaxTermFrequency.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestMultiFields.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestMultiLevelSkipList.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestMultiReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestNRTReaderWithThreads.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestNRTThreads.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestNewestSegment.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestNoDeletionPolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestNoMergePolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestNoMergeScheduler.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestNorms.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestOmitNorms.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestOmitTf.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestParallelReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestParallelReaderEmptyIndex.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestParallelTermEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestPayloadProcessorProvider.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestPayloads.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestPerFieldCodecSupport.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestPerSegmentDeletes.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestPersistentSnapshotDeletionPolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestPositionBasedTermVectorMapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestRollback.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestRollingUpdates.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestSegmentInfo.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestSegmentMerger.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestSegmentReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestSegmentTermDocs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestSegmentTermEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestSizeBoundedOptimize.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestSnapshotDeletionPolicy.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestStressAdvance.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestStressIndexing.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestStressIndexing2.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestTerm.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestTermVectorsReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestTermVectorsWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestTermdocPerf.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestThreadedOptimize.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestTransactionRollback.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/TestTransactions.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/codecs/intblock/TestIntBlockCodec.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/index/codecs/preflex/TestSurrogates.java"
+        }
+      ]
+    },
+    {
+      "@type": "group",
+      "name": "store",
+      "nested": [
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb-je/src/java/org/apache/lucene/store/je/Block.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb-je/src/java/org/apache/lucene/store/je/File.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb-je/src/java/org/apache/lucene/store/je/JEDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb-je/src/java/org/apache/lucene/store/je/JEIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb-je/src/java/org/apache/lucene/store/je/JEIndexOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb-je/src/java/org/apache/lucene/store/je/JELock.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb-je/src/test/org/apache/lucene/store/je/JEStoreTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb/src/java/org/apache/lucene/store/db/Block.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb/src/java/org/apache/lucene/store/db/DbDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb/src/java/org/apache/lucene/store/db/DbIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb/src/java/org/apache/lucene/store/db/DbIndexOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb/src/java/org/apache/lucene/store/db/DbLock.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb/src/java/org/apache/lucene/store/db/File.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb/src/test/org/apache/lucene/store/db/DbStoreTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/db/bdb/src/test/org/apache/lucene/store/db/SanityLoadLibrary.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/FieldSetting.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/FieldSettings.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedDocsAndPositionsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedDocsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedDocument.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedIndex.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedIndexReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedIndexWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedTerm.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedTermDocumentInformation.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedTermFreqVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedTermPositionVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/java/org/apache/lucene/store/instantiated/InstantiatedTermsEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/test/org/apache/lucene/store/instantiated/TestEmptyIndex.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/test/org/apache/lucene/store/instantiated/TestIndicesEquals.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/test/org/apache/lucene/store/instantiated/TestRealTime.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/instantiated/src/test/org/apache/lucene/store/instantiated/TestUnoptimizedReaderOnConstructor.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/store/DirectIOLinuxDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/store/NativePosixUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/contrib/misc/src/java/org/apache/lucene/store/WindowsDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/AlreadyClosedException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/BufferedIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/BufferedIndexOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/ByteArrayDataInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/ChecksumIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/ChecksumIndexOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/DataInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/DataOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/Directory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/FSDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/FSLockFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/FileSwitchDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/IndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/IndexOutput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/Lock.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/LockFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/LockObtainFailedException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/LockReleaseFailedException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/LockStressTest.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/LockVerifyServer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/MMapDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/NIOFSDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/NativeFSLockFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/NoLockFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/NoSuchDirectoryException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/RAMDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/RAMFile.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/RAMInputStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/RAMOutputStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/SimpleFSDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/SimpleFSLockFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/SingleInstanceLockFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/store/VerifyingLockFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/store/MockDirectoryWrapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/store/MockIndexInputWrapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/store/MockIndexOutputWrapper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/store/_TestHelper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestBufferedIndexInput.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestCopyBytes.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestFileSwitchDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestHugeRamFile.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestLock.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestLockFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestMultiMMap.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestRAMDirectory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/store/TestWindowsMMap.java"
+        }
+      ]
+    },
+    {
+      "@type": "group",
+      "name": "analysis",
+      "nested": [
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/Analyzer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/CachingTokenFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/CharReader.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/CharStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/CharTokenizer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/NumericTokenStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/Token.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/TokenFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/TokenStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/Tokenizer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/CharTermAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/CharTermAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/FlagsAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/FlagsAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/KeywordAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/KeywordAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/OffsetAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/OffsetAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/PayloadAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/PayloadAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/PositionIncrementAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/PositionIncrementAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/TermToBytesRefAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/TypeAttribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/analysis/tokenattributes/TypeAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/analysis/BaseTokenStreamTestCase.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/analysis/MockAnalyzer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/analysis/MockPayloadAnalyzer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/analysis/MockTokenFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/analysis/MockTokenizer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/analysis/TestCachingTokenFilter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/analysis/TestCharTokenizers.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/analysis/TestMockAnalyzer.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/analysis/TestNumericTokenStream.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/analysis/TestToken.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/analysis/tokenattributes/TestCharTermAttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/analysis/tokenattributes/TestSimpleAttributeImpl.java"
+        }
+      ]
+    },
+    {
+      "@type": "group",
+      "name": "util",
+      "nested": [
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/messages/Message.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/messages/MessageImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/messages/NLS.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/messages/NLSException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/ArrayUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/Attribute.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/AttributeImpl.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/AttributeReflector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/AttributeSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/AverageGuessMemoryModel.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/BitUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/BitVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/Bits.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/BitsSlice.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/ByteBlockPool.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/BytesRef.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/BytesRefHash.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/CharacterUtils.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/CloseableThreadLocal.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/CodecUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/CollectionUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/Constants.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/DocIdBitSet.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/DoubleBarrelLRUCache.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/DummyConcurrentLock.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/English.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/FieldCacheSanityChecker.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/IOUtils.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/IndexableBinaryStringTools.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/IntsRef.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/MapBackedSet.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/MapOfSets.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/MemoryModel.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/MultiBits.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/NamedThreadFactory.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/NumericUtils.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/OpenBitSet.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/OpenBitSetDISI.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/OpenBitSetIterator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/PagedBytes.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/PerReaderTermState.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/PriorityQueue.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/RamUsageEstimator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/ReaderUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/RecyclingByteBlockAllocator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/ScorerDocQueue.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/SetOnce.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/SimpleStringInterner.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/SmallFloat.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/SortedVIntList.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/SorterTemplate.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/StringHelper.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/StringInterner.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/ThreadInterruptedException.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/ToStringUtils.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/UnicodeUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/Version.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/VirtualMethod.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/Automaton.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/AutomatonProvider.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/BasicAutomata.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/BasicOperations.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/ByteRunAutomaton.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/CharacterRunAutomaton.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/Lev1ParametricDescription.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/Lev2ParametricDescription.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/LevenshteinAutomata.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/MinimizationOperations.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/RegExp.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/RunAutomaton.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/SortedIntSet.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/SpecialOperations.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/State.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/StatePair.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/Transition.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/UTF32ToUTF8.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/Builder.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/ByteSequenceOutputs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/BytesRefFSTEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/FST.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/FSTEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/IntSequenceOutputs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/IntsRefFSTEnum.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/NoOutputs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/NodeHash.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/Outputs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/PairOutputs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/PositiveIntOutputs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/automaton/fst/Util.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/Direct16.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/Direct32.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/Direct64.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/Direct8.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/GrowableWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/Packed32.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/Packed64.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/PackedInts.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/PackedReaderIterator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/util/packed/PackedWriter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/util/LineFileDocs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/util/LuceneJUnitDividingSelector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/util/LuceneJUnitResultFormatter.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/util/LuceneTestCase.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/util/_TestUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test-framework/org/apache/lucene/util/automaton/AutomatonTestUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/messages/MessagesTestBundle.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/messages/TestNLS.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestArrayUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestAttributeSource.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestBitVector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestBytesRefHash.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestCharacterUtils.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestCloseableThreadLocal.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestCollectionUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestDoubleBarrelLRUCache.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestFieldCacheSanityChecker.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestIndexableBinaryStringTools.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestNumericUtils.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestOpenBitSet.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestPriorityQueue.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestRamUsageEstimator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestRecyclingByteBlockAllocator.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestSetOnce.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestSmallFloat.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestSortedVIntList.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestStringIntern.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestUnicodeUtil.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestVersion.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/TestVirtualMethod.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/automaton/TestBasicOperations.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/automaton/TestDeterminism.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/automaton/TestDeterminizeLexicon.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/automaton/TestLevenshteinAutomata.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/automaton/TestMinimize.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/automaton/TestUTF32ToUTF8.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/automaton/fst/TestFSTs.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/util/packed/TestPackedInts.java"
+        }
+      ]
+    },
+    {
+      "@type": "group",
+      "name": "document",
+      "nested": [
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/AbstractField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/CompressionTools.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/DateTools.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/Document.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/Field.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/FieldSelector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/FieldSelectorResult.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/Fieldable.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/LoadFirstFieldSelector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/MapFieldSelector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/NumericField.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/java/org/apache/lucene/document/SetBasedFieldSelector.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/document/TestBinaryDocument.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/document/TestDateTools.java"
+        },
+        {
+          "@type": "item",
+          "name": "lucene/src/test/org/apache/lucene/document/TestDocument.java"
+        }
+      ]
+    }
+  ]
+}

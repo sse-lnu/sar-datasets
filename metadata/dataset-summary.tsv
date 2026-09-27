@@ -1,7 +1,7 @@
 system	archive	archive_size_bytes	present_files	missing_candidates	missing_dependency_files
 ant	archives/gt-deps-source/ant.tar.xz	1067780	1215	8567	2
-archstudio4	archives/gt-deps-source/archstudio4.tar.xz	1031904	2305	583	0
-argouml	archives/gt-deps-source/argouml.tar.xz	1166088	2173	5880	0
+archstudio4	archives/gt-deps-source/archstudio4.tar.xz	1085616	2304	0	0
+argouml	archives/gt-deps-source/argouml.tar.xz	1198136	2173	0	0
 bash-4.2	archives/gt-deps-source/bash-4.2.tar.xz	779312	411	0	0
 chromium	archives/gt-deps-source/chromium.tar.xz	58054520	45091	14	14
 commons-imaging	archives/gt-deps-source/commons-imaging.tar.xz	296316	549	0	0
@@ -10,7 +10,7 @@ hdc	archives/gt-deps-source/hdc.tar.xz	111444	281	0	0
 hdf	archives/gt-deps-source/hdf.tar.xz	658560	954	0	0
 jabref	archives/gt-deps-source/jabref.tar.xz	870180	1329	1015	0
 libxml	archives/gt-deps-source/libxml.tar.xz	420808	95	0	0
-lucene	archives/gt-deps-source/lucene.tar.xz	1192848	1250	10976	0
+lucene	archives/gt-deps-source/lucene.tar.xz	1233984	1250	0	0
 oodt	archives/gt-deps-source/oodt.tar.xz	552916	1017	892	0
 sweethome3d	archives/gt-deps-source/sweethome3d.tar.xz	368248	191	2903	0
 teammates	archives/gt-deps-source/teammates.tar.xz	616812	812	778	0

@@ -51,6 +51,22 @@ The Commons Imaging package is pinned to commit
 contributed by Apache Commons Imaging maintainer Bruno P. Kinoshita; the exact
 source and label provenance is recorded in `docs/provenance.json`.
 
+Three packages carry corrected operational lineage discovered during later audit:
+
+- ArchStudio4 is pinned to initial commit
+  `afdcb17df90d44b121cdb300f283ef13e063c904`, excluding a later unrelated
+  `Test.java` that had entered dependency extraction.
+- ArgoUML uses the original 19-module Brunet/Bittencourt package model applied
+  to the packaged r13713 source with explicit most-specific-rule precedence.
+- Lucene preserves `lucene_gt.json` as historical material and additionally
+  provides `lucene_brunet_r1075001_gt.json`, the operational literal-path
+  reference generated from all seven rules in the original Brunet model.
+
+The raw Bash and Chromium JSON references are intentionally not rewritten:
+Bash requires a documented single-label precedence rule for seven overlapping
+history-library files, while Chromium's complete author-published RSF remains
+the reference authority. These boundaries are recorded in `docs/provenance.json`.
+
 They do not aim to preserve complete, buildable upstream projects. Binary-content files, nested Git repositories, and unrelated files outside the selected source set were removed to keep the repository small and suitable for GitHub.
 
 ## Traceability
